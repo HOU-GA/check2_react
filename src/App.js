@@ -19,6 +19,7 @@ function App() {
     </>
    ): (<h4>Bonjour!</h4>)}
 
+     <div className="cards">
      <Card style={{ width: '18rem' }}>
      {/*****Component qui contient l image *******/}
      <Image/>
@@ -41,7 +42,7 @@ function App() {
           </Button>
       </Card.Body>
     </Card>
-
+    </div>
  
     </div>
   );
